@@ -1,5 +1,6 @@
 import "./styles/main.css";
 
+
 const main = () => {
   const hamburgerButton = document.getElementById("hamburger-button");
   const hamburgerButtonIcon = document.getElementById("hamburger-button-icon");
