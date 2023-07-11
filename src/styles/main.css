@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@layer utilities {
+  .linear-bg-black-to-primary {
+    width: 100%;
+    background-color: white;
+    background: linear-gradient(
+      to bottom,
+      black 0%,
+      black 50%,
+      #1391ad40 50%,
+      #1391ad40 100%
+    );
+  }
+}
